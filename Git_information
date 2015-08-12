@@ -1,0 +1,14 @@
+Here is a bunch of GIT information
+
+git commands
+
+git add .  		adds all new files
+git add -u 	updates tracking for files that changed names or were deleted
+git add -A 	does both of the previous commands
+git commit -m “message”	where message is a useful description of what was done. Local directory only
+
+git push		puts the file up on remote repository
+
+git checkout -b branchname
+git branch
+git checkout master
