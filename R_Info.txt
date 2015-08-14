@@ -1,0 +1,25 @@
+R Info
+
+Places to look for info:
+
+CRAN
+Biconductor Project
+
+a <- available.packages()
+head(rownames(a), 3)  ## Show the names of the first few packages
+
+install.packages()
+install.packages("slidify")
+
+
+For Bioconductor:
+
+source("http://bioconductor.org/biocLite.R")
+biocLite()
+
+biocLite(c("GenomicFeatures", "AnnotationDbi"))
+
+http://www.bioconductor.org/install
+
+library([ggplot2][plot], etc)  ## Note: do not put libs in quotes.
+
